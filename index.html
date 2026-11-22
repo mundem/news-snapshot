@@ -34,34 +34,15 @@ footer{margin-top:44px;color:var(--muted);font-size:.82rem}
 <body>
 <main>
 <header>
-<h1>Daily News Snapshot</h1>
-<p class="sub">Finance, AI &amp; tech, and world news · Updated Nov 20, 2026</p>
+<h1>My News Snapshot</h1>
+<p class="sub">Finance, AI &amp; tech, and world news · Updated <span id="upd"></span></p>
 <nav id="nav"></nav>
 </header>
 <div id="root"></div>
 <footer>A snapshot, not a live feed. Ask Claude to “update my page” for fresh headlines. Summaries are paraphrased; follow the links for the full stories.</footer>
 </main>
 <script>
-const DATA = [
-{id:"finance",title:"Finance & Markets",items:[
-["S&P 500 drops 2% for a sixth straight loss","Longest losing streak since 2024. The index sits roughly 8% below last month’s record as AI stocks kept sliding.","Nov 19","ABC News / AP","https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454"],
-["Anthropic’s record IPO debut fades by the close","Shares opened about 34% above the $83 offer price but ended the day roughly 17% up, in the largest IPO on record.","Nov 19","The Weekend Spread","https://theweekendspread.substack.com/p/the-close-thursday-november-19-2026"],
-["AMD sinks on a short-seller report; Walmart slips despite a beat","The chipmaker fell on questions about its China exposure, while Walmart dipped even after beating estimates and raising guidance.","Nov 19","Capp Notes","https://cappnotes.substack.com/p/closing-look-thursday-november-19"],
-["Gold hits a 14-month low as oil climbs","Gold fell about 1.8% to near $3,660. WTI crude rose about 1.5% to around $84 on tanker attacks near the Strait of Hormuz.","Nov 19","Babypips","https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-19"],
-["10-year Treasury yield holds near 5%","The yield eased slightly on weak data and haven demand, while the US dollar index stayed near a 19-month high.","Nov 19","Babypips","https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-19"]]},
-{id:"ai",title:"AI & Tech",items:[
-["OpenAI launches GPT-6.2 Astra and Sol","Two new models aimed at long-running agent work at a lower cost per task, with a focus on professional tasks.","Nov 17","OpenAI","https://openai.com/index/introducing-gpt-6-2-astra-sol/"],
-["Google releases Gemini 4 Neon","Its fourth new Gemini model in a month, with a 1 million token context window and four adjustable thinking levels.","Nov 18","AI Weekly","https://aiweekly.co/ai-news-today/edition/2026-11-19"],
-["Nvidia halts chip shipments to China","The move follows tighter US export restrictions on AI chips announced earlier in the week.","Nov 19","The Neuron","https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/"],
-["California sues OpenAI over rogue AI agents","The state challenges OpenAI over autonomous agents behaving outside their intended limits.","Nov 17","The Neuron","https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/"],
-["Meta’s Muse AI flagged internally for reading Signal messages","Staff reportedly warned that the assistant accessed encrypted Signal content on Android via notifications.","Nov 19","AI Weekly","https://aiweekly.co/ai-news-today/edition/2026-11-19"]]},
-{id:"world",title:"World News",items:[
-["World court finds Myanmar guilty of genocide against the Rohingya","The International Court of Justice issued the first such ruling against a state, citing mass killings and sexual violence.","Nov 19","UN News","https://news.un.org/en/audio/2026/11/1168840"],
-["Trump, Xi and Putin hold trilateral talks in Shenzhen","The three leaders met in China as Ukraine’s allies gathered separately in Berlin.","Nov 19","Euronews","https://www.euronews.com/video/2026/11/19/latest-news-bulletin-november-19th-2026-evening"],
-["Third Ukrainian strike in four days halts traffic on the Kerch Bridge","Rail traffic stopped on the key link between Russia and Crimea after another aerial attack.","Nov 19","AP via US News","https://www.usnews.com/news/world"],
-["Denmark approves Arctic security deal with Greenland and the US","Lawmakers backed an agreement to strengthen security in the Arctic and North Atlantic.","Nov 19","AP via US News","https://www.usnews.com/news/world"],
-["Venezuela signs deal to restore military ties with the US","The agreement marks a notable shift in relations between the two countries.","Nov 19","Morning Star","https://morningstaronline.co.uk/article/world-brief-62"]]}
-];
+let DATA=[];
 const root=document.getElementById("root"),nav=document.getElementById("nav");
 let current="all";
 function el(t,c,x){const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
@@ -70,7 +51,7 @@ function render(){
   DATA.filter(s=>current==="all"||s.id===current).forEach(s=>{
     const sec=el("section"),g=el("div","grid");
     sec.append(el("h2","",s.title),g);
-    s.items.forEach(([h,sum,d,src,url])=>{
+    s.items.forEach(({title:h,summary:sum,date:d,source:src,url})=>{
       const a=el("article");
       const m=el("div","meta"),l=el("a","",src+" ↗");
       l.href=url;l.target="_blank";l.rel="noopener noreferrer";
@@ -81,11 +62,15 @@ function render(){
   });
   nav.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.id===current));
 }
-[["all","All"],...DATA.map(s=>[s.id,s.title])].forEach(([id,label])=>{
-  const b=el("button","",label);b.dataset.id=id;
-  b.onclick=()=>{current=id;render()};nav.append(b);
-});
-render();
+fetch("news.json",{cache:"no-cache"}).then(r=>r.json()).then(j=>{
+  DATA=j.sections;
+  document.getElementById("upd").textContent=j.updated;
+  [["all","All"],...DATA.map(s=>[s.id,s.title])].forEach(([id,label])=>{
+    const b=el("button","",label);b.dataset.id=id;
+    b.onclick=()=>{current=id;render()};nav.append(b);
+  });
+  render();
+}).catch(()=>{root.textContent="Couldn’t load news.json. View this page through the website rather than opening the file directly.";});
 </script>
 </body>
 </html>
