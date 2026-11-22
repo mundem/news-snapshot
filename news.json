@@ -1,44 +1,44 @@
 {
-  "updated": "Nov 20, 2026",
+  "updated": "Nov 22, 2026",
   "sections": [
     {
       "id": "finance",
       "title": "Finance & Markets",
       "items": [
         {
-          "title": "S&P 500 drops 2% for a sixth straight loss",
-          "summary": "Longest losing streak since 2024. The index sits roughly 8% below last month’s record as AI stocks kept sliding.",
-          "date": "Nov 19",
-          "source": "ABC News / AP",
-          "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-11192026-138303454"
+          "title": "How China is using summits to expand its global influence",
+          "summary": "Chinese President Xi Jinping has helped coordinate yet another photo-op of global significance.",
+          "date": "Nov 21",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/21/china-xi-trump-putin-global-diplomacy-shenzhen.html"
         },
         {
-          "title": "Anthropic’s record IPO debut fades by the close",
-          "summary": "Shares opened about 34% above the $83 offer price but ended the day roughly 17% up, in the largest IPO on record.",
-          "date": "Nov 19",
-          "source": "The Weekend Spread",
-          "url": "https://theweekendspread.substack.com/p/the-close-thursday-november-19-2026"
+          "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
+          "summary": "“I’m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.”",
+          "date": "Nov 22",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories"
         },
         {
-          "title": "AMD sinks on a short-seller report; Walmart slips despite a beat",
-          "summary": "The chipmaker fell on questions about its China exposure, while Walmart dipped even after beating estimates and raising guidance.",
-          "date": "Nov 19",
-          "source": "Capp Notes",
-          "url": "https://cappnotes.substack.com/p/closing-look-thursday-november-19"
+          "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
+          "summary": "Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.",
+          "date": "Nov 20",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
         },
         {
-          "title": "Gold hits a 14-month low as oil climbs",
-          "summary": "Gold fell about 1.8% to near $3,660. WTI crude rose about 1.5% to around $84 on tanker attacks near the Strait of Hormuz.",
-          "date": "Nov 19",
-          "source": "Babypips",
-          "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-19"
+          "title": "My wife is bankrolling her family’s trips to New York and it’s draining our savings. Should I ask her to stop?",
+          "summary": "“Hotel rooms can cost as much as $400 per night.”",
+          "date": "Nov 22",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories"
         },
         {
-          "title": "10-year Treasury yield holds near 5%",
-          "summary": "The yield eased slightly on weak data and haven demand, while the US dollar index stayed near a 19-month high.",
-          "date": "Nov 19",
-          "source": "Babypips",
-          "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-19"
+          "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+          "summary": "Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
+          "date": "Nov 20",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html"
         }
       ]
     },
@@ -47,39 +47,39 @@
       "title": "AI & Tech",
       "items": [
         {
-          "title": "OpenAI launches GPT-6.2 Astra and Sol",
-          "summary": "Two new models aimed at long-running agent work at a lower cost per task, with a focus on professional tasks.",
-          "date": "Nov 17",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+          "title": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
+          "summary": "Director Takashi Yamazaki ups the ante by pitting Godzilla against one of the monster's greatest foes",
+          "date": "Nov 21",
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/"
         },
         {
-          "title": "Google releases Gemini 4 Neon",
-          "summary": "Its fourth new Gemini model in a month, with a 1 million token context window and four adjustable thinking levels.",
-          "date": "Nov 18",
-          "source": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today/edition/2026-11-19"
+          "title": "Amazon is complaining about NYC Council on shipping labels, too",
+          "summary": "Amazon is leaving no venue unexplored in its fight against the New York City Council and the Delivery Protection Act. The company is now putting labels on shipments claiming that the Council could…",
+          "date": "Nov 21",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1039564/amazon-nyc-council-packages-shipping-label"
         },
         {
-          "title": "Nvidia halts chip shipments to China",
-          "summary": "The move follows tighter US export restrictions on AI chips announced earlier in the week.",
-          "date": "Nov 19",
-          "source": "The Neuron",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/"
+          "title": "The most misunderstood graph in AI just got a major update",
+          "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at…",
+          "date": "Nov 20",
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
         },
         {
-          "title": "California sues OpenAI over rogue AI agents",
-          "summary": "The state challenges OpenAI over autonomous agents behaving outside their intended limits.",
-          "date": "Nov 17",
-          "source": "The Neuron",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/"
+          "title": "“Race realism” isn’t realistic—and it isn’t good science",
+          "summary": "Modern genetics does not support claims of innate racial differences in intelligence.",
+          "date": "Nov 21",
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/"
         },
         {
-          "title": "Meta’s Muse AI flagged internally for reading Signal messages",
-          "summary": "Staff reportedly warned that the assistant accessed encrypted Signal content on Android via notifications.",
-          "date": "Nov 19",
-          "source": "AI Weekly",
-          "url": "https://aiweekly.co/ai-news-today/edition/2026-11-19"
+          "title": "The UN fails to agree on rules regulating ‘killer robots’",
+          "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually…",
+          "date": "Nov 21",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
         }
       ]
     },
@@ -88,39 +88,39 @@
       "title": "World News",
       "items": [
         {
-          "title": "World court finds Myanmar guilty of genocide against the Rohingya",
-          "summary": "The International Court of Justice issued the first such ruling against a state, citing mass killings and sexual violence.",
-          "date": "Nov 19",
-          "source": "UN News",
-          "url": "https://news.un.org/en/audio/2026/11/1168840"
+          "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+          "summary": "Fausto Isidro \"Chapo Idisro\" Meza Flores, who is accused of drug trafficking and torture, is detained after gun fight with authorities.",
+          "date": "Nov 22",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Trump, Xi and Putin hold trilateral talks in Shenzhen",
-          "summary": "The three leaders met in China as Ukraine’s allies gathered separately in Berlin.",
-          "date": "Nov 19",
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/19/latest-news-bulletin-november-19th-2026-evening"
+          "title": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off a burst of violence in Sinaloa",
+          "summary": "Fausto Isidro Meza Flores was one of the FBI's 10 most wanted fugitives. He climbed the cartel ranks to lead the Beltrán Leyva cartel and later became the leader of his own group, the Meza-Flores…",
+          "date": "Nov 21",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/mexico-detains-top-cartel-boss-el-chapo-isidro-setting-off-a-burst-of-violence-in-sinaloa"
         },
         {
-          "title": "Third Ukrainian strike in four days halts traffic on the Kerch Bridge",
-          "summary": "Rail traffic stopped on the key link between Russia and Crimea after another aerial attack.",
-          "date": "Nov 19",
-          "source": "AP via US News",
-          "url": "https://www.usnews.com/news/world"
+          "title": "FBI reportedly investigating apparent hack of its criminal database",
+          "summary": "The National Crime Information Center database is used by federal and local law enforcement to share information.",
+          "date": "Nov 22",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Denmark approves Arctic security deal with Greenland and the US",
-          "summary": "Lawmakers backed an agreement to strengthen security in the Arctic and North Atlantic.",
-          "date": "Nov 19",
-          "source": "AP via US News",
-          "url": "https://www.usnews.com/news/world"
+          "title": "Climate talks in overtime as nations wrestle with response to worsening global warming",
+          "summary": "The added day of talks came as the two-week annual summit, or COP31, drew strong condemnation for failing to mention fossil fuels in a draft of the final agreement.",
+          "date": "Nov 21",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/climate-talks-in-overtime-as-nations-wrestle-with-response-to-worsening-global-warming"
         },
         {
-          "title": "Venezuela signs deal to restore military ties with the US",
-          "summary": "The agreement marks a notable shift in relations between the two countries.",
-          "date": "Nov 19",
-          "source": "Morning Star",
-          "url": "https://morningstaronline.co.uk/article/world-brief-62"
+          "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+          "summary": "Fewer young people have registered to vote in next year's election than in 2023 - are young people losing faith in democracy?",
+          "date": "Nov 22",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
