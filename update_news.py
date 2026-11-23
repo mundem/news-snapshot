@@ -1,6 +1,6 @@
 """Fetches headlines from news feeds and rewrites news.json.
 Uses only Python's built-in libraries, so nothing needs installing."""
-import json, re, html, urllib.request
+import os, json, re, html, urllib.request, urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
@@ -23,6 +23,16 @@ FEEDS = {
 }
 PER_SECTION = 5      # stories per topic
 SUMMARY_CHARS = 200  # max summary length
+CANDIDATES = 30      # headlines the AI chooses from, per topic
+
+# ---- AI settings. If the AI step fails with a "model" error, change MODEL. ----
+MODEL = "grok-4.7"
+API_URL = "https://api.x.ai/v1/chat/completions"
+TOPICS = {
+    "finance": "finance and markets: stock and bond markets, the economy, central banks, major companies and commodities",
+    "ai": "AI and technology: AI models and companies, chips, major tech products and tech policy",
+    "world": "world news: major international events, conflicts, diplomacy, disasters and the global economy",
+}
 # ------------------------------------------------------------------------
 
 def local(tag):
@@ -81,10 +91,10 @@ def fetch(url):
     with urllib.request.urlopen(req, timeout=20) as r:
         return r.read()
 
-def pick(lists):
+def pick(lists, limit=PER_SECTION):
     """Take stories from each source in turn so one outlet doesn't dominate."""
     chosen, seen = [], set()
-    while len(chosen) < PER_SECTION and any(lists):
+    while len(chosen) < limit and any(lists):
         for lst in lists:
             while lst:
                 item = lst.pop(0)
@@ -93,9 +103,57 @@ def pick(lists):
                     seen.add(key)
                     chosen.append(item)
                     break
-            if len(chosen) >= PER_SECTION:
+            if len(chosen) >= limit:
                 break
     return chosen
+
+def ask_ai(section_id, pool):
+    """Asks the AI to choose the most important stories and summarise them."""
+    key = os.environ.get("XAI_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("no XAI_API_KEY found")
+    lines = "\n".join(f"{n}. {i['title']} | {i['summary']} ({i['source']})"
+                      for n, i in enumerate(pool, 1))
+    prompt = (
+        f"You are the editor of a personal news page about {TOPICS.get(section_id, section_id)}.\n"
+        f"From the numbered list below, choose the {PER_SECTION} most important and newsworthy stories "
+        "for a general reader. Skip celebrity gossip, lifestyle, shopping deals and minor stories. "
+        "Prefer a mix of sources and avoid near-duplicates.\n"
+        "For each, write a neutral summary of 1-2 sentences (under 200 characters) using ONLY "
+        "information in its headline and snippet. Do not add facts.\n"
+        'Reply with JSON only, in this shape: {"picks":[{"id":1,"summary":"..."}]}\n\n' + lines
+    )
+    body = json.dumps({
+        "model": MODEL, "temperature": 0.2,
+        "messages": [
+            {"role": "system", "content": "You are a careful news editor. Reply with JSON only."},
+            {"role": "user", "content": prompt},
+        ],
+    }).encode()
+    req = urllib.request.Request(API_URL, data=body, headers={
+        "Content-Type": "application/json",
+        "Authorization": "Bearer " + key,
+        "User-Agent": "Mozilla/5.0 (personal news page)",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=90) as r:
+            reply = json.load(r)["choices"][0]["message"]["content"]
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"HTTP {e.code}: {e.read()[:300].decode('utf-8', 'replace')}")
+    picks = json.loads(re.search(r"\{.*\}", reply, re.S).group(0))["picks"]
+    chosen, used = [], set()
+    for p in picks:
+        n = int(p["id"])
+        if 1 <= n <= len(pool) and n not in used:
+            used.add(n)
+            item = dict(pool[n - 1])
+            summary = clean(str(p.get("summary", "")))
+            if summary:
+                item["summary"] = summary
+            chosen.append(item)
+    if len(chosen) < 3:
+        raise RuntimeError("the AI returned too few usable picks")
+    return chosen[:PER_SECTION]
 
 def main():
     with open("news.json", encoding="utf-8") as f:
@@ -109,7 +167,14 @@ def main():
                 lists.append(found)
             except Exception as e:
                 print(f"FAIL  {section['id']:8} {name}: {e}")
-        chosen = pick(lists)
+        pool = pick(lists, CANDIDATES)
+        chosen = pool[:PER_SECTION]  # fallback: the newest stories
+        if pool:
+            try:
+                chosen = ask_ai(section["id"], pool)
+                print(f"AI    {section['id']:8} picked {len(chosen)} of {len(pool)}")
+            except Exception as e:
+                print(f"AIFAIL {section['id']:8} {e} -- using the newest stories instead")
         if not chosen:
             print(f"KEEP  {section['id']}: no stories fetched, keeping the old ones")
             continue
