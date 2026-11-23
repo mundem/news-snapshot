@@ -1,44 +1,44 @@
 {
-  "updated": "Nov 23, 2026 at 10:29 AM SGT",
+  "updated": "Nov 24, 2026 at 6:45 AM SGT",
   "sections": [
     {
       "id": "finance",
       "title": "Finance & Markets",
       "items": [
         {
-          "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-          "summary": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off. Odds that the S&P 500 will cross 8,000, once above 70%, are now extremely low on Kalshi. (Nov 20)",
-          "date": "Nov 20",
+          "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+          "summary": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation. The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target…",
+          "date": "Nov 23",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html"
+          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
         },
         {
-          "title": "The bull market has a new problem. The 'smart money' is selling",
-          "summary": "The bull market has a new problem. The 'smart money' is selling. Companies are shifting from share buybacks to stock issuance, adding new supply. (Nov 20)",
-          "date": "Nov 20",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html"
+          "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
+          "summary": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm. Jensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by…",
+          "date": "Nov 23",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories"
         },
         {
-          "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-          "summary": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show. The Federal Reserve released minutes from its October meeting where it held rates. (Nov 18)",
-          "date": "Nov 18",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+          "title": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips",
+          "summary": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips. Amazon’s deal for Decart’s AI technology, with a reported price of $7.5 billion, may be a relatively inexpensive way to…",
+          "date": "Nov 23",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/amazon-may-have-just-found-a-cheap-way-to-get-a-lot-more-out-of-its-chips-bd822bd5?mod=mw_rss_topstories"
         },
         {
-          "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-          "summary": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike. Continued inflation above the Fed's 2% target is pushing officials toward a more aggressive stance. (Nov 18)",
-          "date": "Nov 18",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+          "title": "HPE just posted its strongest growth ever — but its stock is wavering",
+          "summary": "HPE just posted its strongest growth ever — but its stock is wavering. HPE boosted its financial forecast on Monday in the face of strong AI demand.",
+          "date": "Nov 23",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories"
         },
         {
-          "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
-          "summary": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia. Analysts note few concrete outcomes from the high-profile meetings for APEC in Shenzhen. (Nov 20)",
-          "date": "Nov 20",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html"
+          "title": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing",
+          "summary": "Oracle and CoreWeave stocks stage big gains as investors bet the AI cash will keep flowing. Nvidia’s financing of the AI ecosystem has been crucial for cloud companies like Oracle, CoreWeave, Nebius…",
+          "date": "Nov 23",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/oracle-and-coreweave-stocks-stage-big-gains-as-investors-bet-the-ai-cash-will-keep-flowing-eeb1aa85?mod=mw_rss_topstories"
         }
       ]
     },
@@ -47,39 +47,39 @@
       "title": "AI & Tech",
       "items": [
         {
-          "title": "The most misunderstood graph in AI just got a major update",
-          "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at…",
-          "date": "Nov 20",
-          "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+          "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+          "summary": "Jensen Huang has been reinstated as Nvidia CEO and board chair. President Trump says he spoke to the board and that Huang \"did nothing wrong.\" (Ars Technica)",
+          "date": "Nov 23",
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/"
         },
         {
-          "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-          "summary": "Meta is “re-evaluating” 2030 sustainability goals amid record emissions from AI data centers. Will others follow?",
-          "date": "Nov 20",
+          "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+          "summary": "Multiple states are suing SpaceX to stop Grok from generating child sex images and revenge porn. X says every Grok output is screened, but state AGs say it is still making CSAM. (Ars Technica)",
+          "date": "Nov 23",
           "source": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+          "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/"
         },
         {
-          "title": "Google rolls out new search homepage with AI chat history and no search button",
-          "summary": "Google rolls out new search homepage with AI chat history and no search button, making it even easier to access AI tools on the search page.",
-          "date": "Nov 20",
+          "title": "Reports: Russia may launch nuclear weapon into orbit as soon as next month",
+          "summary": "Reports claim Russia may launch a nuclear weapon into orbit as soon as next month. A nuclear detonation in space could cause rapid loss or degradation of thousands of satellites. (Ars Technica)",
+          "date": "Nov 23",
           "source": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
+          "url": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/"
         },
         {
-          "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
-          "summary": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced when test using prompts with unique, trackable secrets proves that data doesn't stay private.",
-          "date": "Nov 20",
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+          "title": "Ladybird, the first new browser engine in years, is now available to test",
+          "summary": "Ladybird, the first new browser engine in years and built from scratch, is now available to test in alpha. (The Verge)",
+          "date": "Nov 23",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing"
         },
         {
-          "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
-          "summary": "Trump FCC declares California isn't allowed to enforce phone service rules, preempting state rules that require AT&T to keep offering home phone service.",
-          "date": "Nov 20",
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/"
+          "title": "Claude AI can review pull requests and ship fixes on its own now",
+          "summary": "Anthropic is launching Claude Ship, enabling Claude AI to review pull requests, fix issues, and approve code on its own to help engineers. (The Verge)",
+          "date": "Nov 23",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
         }
       ]
     },
@@ -88,39 +88,39 @@
       "title": "World News",
       "items": [
         {
-          "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-          "summary": "Democrats win largest House majority since 1992 after flipping North Carolina seat. They have now secured at least 258 seats compared to Republicans' 173. (BBC News)",
+          "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+          "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner. (BBC News)",
           "date": "Nov 23",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-          "summary": "COP31 fails to reach major climate deal as talks expose deep divisions. Hopes collapsed after disagreements about mentioning fossil fuels. (BBC News)",
+          "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+          "summary": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya. Ukrainian forces deployed seven drones in the operation that struck the Russian navy corvette in the…",
           "date": "Nov 23",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/zelenskyy-hails-ukraines-attack-on-a-russian-warship-docked-at-a-naval-base-in-libya"
         },
         {
-          "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-          "summary": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes. BBC's Sarah Rainsford reports from a collapsed residential building in Kyiv region. (BBC News)",
-          "date": "Nov 22",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-          "summary": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say. The ship had stopped for fuel and supplies on its way back to Russia. (BBC News)",
-          "date": "Nov 22",
+          "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+          "summary": "Russian warship hit by Ukrainian drones in Libya, Zelensky says. The Kremlin warns of an \"escalation of tensions in the region\". (BBC News)",
+          "date": "Nov 23",
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
-          "summary": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out. Fausto Isidro 'Chapo Isidro' Meza Flores, accused of drug trafficking and torture, is detained. (BBC News)",
-          "date": "Nov 22",
+          "title": "The collapse of UN climate talks over fossil fuels was years in the making",
+          "summary": "The collapse of UN climate talks over fossil fuels was years in the making. Negotiations collapsed over whether to include language about fossil fuels, the main driver of global warming. (PBS…",
+          "date": "Nov 23",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/the-collapse-of-un-climate-talks-over-fossil-fuels-was-years-in-the-making"
+        },
+        {
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "summary": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says. The report says there are signs of possible contamination across almost all of Gaza. (BBC News)",
+          "date": "Nov 23",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
