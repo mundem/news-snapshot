@@ -26,7 +26,7 @@ SUMMARY_CHARS = 200  # max summary length
 CANDIDATES = 30      # headlines the AI chooses from, per topic
 
 # ---- AI settings. If the AI step fails with a "model" error, change MODEL. ----
-MODEL = "grok-4.7"
+MODEL = "grok-4.20-non-reasoning"
 API_URL = "https://api.x.ai/v1/chat/completions"
 TOPICS = {
     "finance": "finance and markets: stock and bond markets, the economy, central banks, major companies and commodities",
