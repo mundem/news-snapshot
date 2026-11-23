@@ -54,11 +54,11 @@
           "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/"
         },
         {
-          "title": "Some of our favorite Switch 2 games are cheaper through Black Friday",
-          "summary": "Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well. In…",
+          "title": "We haven’t seen the last of the major tech outages",
+          "summary": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the…",
           "date": "Nov 22",
           "source": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale"
+          "url": "https://www.theverge.com/tech/1039851/major-tech-outages"
         },
         {
           "title": "The most misunderstood graph in AI just got a major update",
@@ -75,11 +75,11 @@
           "url": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/"
         },
         {
-          "title": "Delta flights in and out of Atlanta delayed due to system outage",
-          "summary": "All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane's weight and balance. Hartsfield-Jackson Atlanta International…",
+          "title": "Nintendo’s Switch 2 console is $50 off for Black Friday",
+          "summary": "Those hoping to save some cash on a Nintendo Switch 2 can do so starting today, November 22nd, through Saturday, December 5th, giving you plenty of time to think about it after Cyber Monday has…",
           "date": "Nov 22",
           "source": "The Verge",
-          "url": "https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage"
+          "url": "https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale"
         }
       ]
     },
@@ -88,39 +88,39 @@
       "title": "World News",
       "items": [
         {
-          "title": "Miley Cyrus marries Maxx Morando in California ceremony",
-          "summary": "The couple have been together for four years and were engaged in 2025.",
-          "date": "Nov 22",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "title": "Poland says Russia allegedly twice tried to kill a Ukrainian American rapper",
-          "summary": "Denmark is expected to ask the European Union this week for more decisive action stemming from the case, perhaps restricting Russian citizens from entering and traveling freely within the EU. Poland…",
-          "date": "Nov 22",
+          "title": "What the historic Trump, Xi and Putin summit signals to the world",
+          "summary": "President Trump meets Xi Jinping and Vladimir Putin in a historic summit, an unprecedented show of three leaders using grand diplomatic gestures.",
+          "date": "Nov 20",
           "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/poland-says-russia-allegedly-twice-tried-to-kill-a-ukrainian-american-rapper"
+          "url": "https://www.pbs.org/newshour/video/compass-points/2026/11/what-the-historic-trump-xi-and-putin-summit-signals-to-the-world"
         },
         {
-          "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-          "summary": "Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
-          "date": "Nov 22",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "title": "U.S. intelligence chief says Trump's description of Putin as a 'friend' is 'entirely appropriate'",
-          "summary": "Clayton defended comments that Democrats have characterized as a betrayal of American values after Trump met with Putin and Chinese President Xi Jinping for rare three-way talks.",
-          "date": "Nov 22",
+          "title": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace",
+          "summary": "NATO called two Russian missiles and a suspected drone that landed in Poland a grave airspace violation. Poland's prime minister said it was likely a provocation during European exercises.",
+          "date": "Nov 20",
           "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/u-s-intelligence-chief-says-trumps-description-of-putin-as-a-friend-is-entirely-appropriate"
+          "url": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace"
         },
         {
-          "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-          "summary": "Democrats have now won at least 258 seats in the midterms compared to Republicans, who hold at least 173 seats.",
-          "date": "Nov 22",
+          "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
+          "summary": "COP31 failed to reach a major climate deal after hopes for an agreement collapsed in a row over mentioning fossil fuels, exposing deep divisions.",
+          "date": "Nov 23",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "title": "Rights groups urge sanctions after ICJ finds Myanmar guilty of genocide against Rohingya",
+          "summary": "The ICJ found Myanmar guilty of genocide against the Rohingya and ordered safe returns for those who fled, but it cannot enforce the ruling. Rights groups urge sanctions.",
+          "date": "Nov 20",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/rights-groups-urge-sanctions-after-icj-finds-myanmar-guilty-of-genocide-against-rohingya"
+        },
+        {
+          "title": "Iran war has permanently reshaped energy priorities, IEA report says",
+          "summary": "An IEA report says the Iran war has permanently reshaped energy priorities and will leave lasting marks on the world's energy sector.",
+          "date": "Nov 20",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/iran-war-has-permanently-reshaped-energy-priorities-iea-report-says"
         }
       ]
     }
