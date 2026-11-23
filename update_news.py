@@ -107,17 +107,21 @@ def pick(lists, limit=PER_SECTION):
                 break
     return chosen
 
-def ask_ai(section_id, pool):
+def ask_ai(section_id, pool, today):
     """Asks the AI to choose the most important stories and summarise them."""
     key = os.environ.get("XAI_API_KEY", "").strip()
     if not key:
         raise RuntimeError("no XAI_API_KEY found")
-    lines = "\n".join(f"{n}. {i['title']} | {i['summary']} ({i['source']})"
+    def day(i):
+        return f"{i['when']:%b} {i['when'].day}" if i["when"] else "date unknown"
+    lines = "\n".join(f"{n}. [{day(i)}] {i['title']} | {i['summary']} ({i['source']})"
                       for n, i in enumerate(pool, 1))
     prompt = (
         f"You are the editor of a personal news page about {TOPICS.get(section_id, section_id)}.\n"
+        f"Today is {today}. Each headline shows its publication date in brackets.\n"
         f"From the numbered list below, choose the {PER_SECTION} most important and newsworthy stories "
         "for a general reader. Skip celebrity gossip, lifestyle, shopping deals and minor stories. "
+        "Prefer recent stories: when two stories are similarly important, choose the newer one. "
         "Prefer a mix of sources and avoid near-duplicates.\n"
         "For each, write a neutral summary of 1-2 sentences (under 200 characters) using ONLY "
         "information in its headline and snippet. Do not add facts.\n"
@@ -136,7 +140,7 @@ def ask_ai(section_id, pool):
         "User-Agent": "Mozilla/5.0 (personal news page)",
     })
     try:
-        with urllib.request.urlopen(req, timeout=90) as r:
+        with urllib.request.urlopen(req, timeout=240) as r:
             reply = json.load(r)["choices"][0]["message"]["content"]
     except urllib.error.HTTPError as e:
         raise RuntimeError(f"HTTP {e.code}: {e.read()[:300].decode('utf-8', 'replace')}")
@@ -156,6 +160,8 @@ def ask_ai(section_id, pool):
     return chosen[:PER_SECTION]
 
 def main():
+    now = datetime.now(timezone(timedelta(hours=8)))  # Singapore time
+    today = f"{now:%A}, {now:%B} {now.day}, {now.year}"
     with open("news.json", encoding="utf-8") as f:
         data = json.load(f)
     for section in data["sections"]:
@@ -171,7 +177,7 @@ def main():
         chosen = pool[:PER_SECTION]  # fallback: the newest stories
         if pool:
             try:
-                chosen = ask_ai(section["id"], pool)
+                chosen = ask_ai(section["id"], pool, today)
                 print(f"AI    {section['id']:8} picked {len(chosen)} of {len(pool)}")
             except Exception as e:
                 print(f"AIFAIL {section['id']:8} {e} -- using the newest stories instead")
@@ -185,8 +191,7 @@ def main():
             "source": i["source"],
             "url": i["url"],
         } for i in chosen]
-    now = datetime.now(timezone(timedelta(hours=8)))
-    data["updated"] = f"{now:%b} {now.day}, {now.year}"
+    data["updated"] = f"{now:%b} {now.day}, {now.year} at {now.hour % 12 or 12}:{now:%M} {now:%p} SGT"
     with open("news.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
         f.write("\n")

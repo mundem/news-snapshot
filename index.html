@@ -34,7 +34,7 @@ footer{margin-top:44px;color:var(--muted);font-size:.82rem}
 <body>
 <main>
 <header>
-<h1>My News Snapshot</h1>
+<h1>Daily News Snapshot</h1>
 <p class="sub">Finance, AI &amp; tech, and world news · Updated <span id="upd"></span></p>
 <nav id="nav"></nav>
 </header>
@@ -63,7 +63,8 @@ function render(){
   nav.querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.id===current));
 }
 fetch("news.json",{cache:"no-cache"}).then(r=>r.json()).then(j=>{
-  DATA=j.sections;
+  const ORDER=["world","finance","ai"];
+  DATA=j.sections.slice().sort((a,b)=>ORDER.indexOf(a.id)-ORDER.indexOf(b.id));
   document.getElementById("upd").textContent=j.updated;
   [["all","All"],...DATA.map(s=>[s.id,s.title])].forEach(([id,label])=>{
     const b=el("button","",label);b.dataset.id=id;
