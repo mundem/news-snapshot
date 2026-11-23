@@ -14,6 +14,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: python update_news.py
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
       - name: Save changes
         run: |
           git config user.name "news-bot"
