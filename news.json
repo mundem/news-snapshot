@@ -1,44 +1,44 @@
 {
-  "updated": "Nov 23, 2026",
+  "updated": "Nov 23, 2026 at 10:29 AM SGT",
   "sections": [
     {
       "id": "finance",
       "title": "Finance & Markets",
       "items": [
         {
-          "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
-          "summary": "Warsh wants Fed officials to talk less. Instead, they’re talking more. Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.",
-          "date": "Nov 20",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
-        },
-        {
           "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
-          "summary": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off. Odds that the S&P 500 will cross 8,000, which were once north of 70%, are extremely low on platform Kalshi.",
+          "summary": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off. Odds that the S&P 500 will cross 8,000, once above 70%, are now extremely low on Kalshi. (Nov 20)",
           "date": "Nov 20",
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html"
         },
         {
           "title": "The bull market has a new problem. The 'smart money' is selling",
-          "summary": "The bull market has a new problem. The 'smart money' is selling. Companies are shifting from share buybacks to stock issuance, adding new supply. Anthropic’s $81 billion IPO puts that demand to the…",
+          "summary": "The bull market has a new problem. The 'smart money' is selling. Companies are shifting from share buybacks to stock issuance, adding new supply. (Nov 20)",
           "date": "Nov 20",
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html"
         },
         {
           "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-          "summary": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show. The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its…",
+          "summary": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show. The Federal Reserve released minutes from its October meeting where it held rates. (Nov 18)",
           "date": "Nov 18",
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
         },
         {
           "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-          "summary": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike. Continued inflation above the Fed's 2% target is pushing central bank officials into a more aggressive stance.",
+          "summary": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike. Continued inflation above the Fed's 2% target is pushing officials toward a more aggressive stance. (Nov 18)",
           "date": "Nov 18",
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+        },
+        {
+          "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
+          "summary": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia. Analysts note few concrete outcomes from the high-profile meetings for APEC in Shenzhen. (Nov 20)",
+          "date": "Nov 20",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html"
         }
       ]
     },
@@ -54,32 +54,32 @@
           "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
         },
         {
-          "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
-          "summary": "Trump FCC declares California isn't allowed to enforce phone service rules. FCC preempts state rules that require AT&T to keep offering home phone service.",
+          "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+          "summary": "Meta is “re-evaluating” 2030 sustainability goals amid record emissions from AI data centers. Will others follow?",
           "date": "Nov 20",
           "source": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/"
-        },
-        {
-          "title": "A human liver has been kept alive outside the body for a record seven weeks",
-          "summary": "A human liver has been kept alive outside the body for a record seven weeks. Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks.",
-          "date": "Nov 19",
-          "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/"
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
         },
         {
           "title": "Google rolls out new search homepage with AI chat history and no search button",
-          "summary": "Google rolls out new search homepage with AI chat history and no search button. Google search is making it even easier to access AI tools on the search page.",
+          "summary": "Google rolls out new search homepage with AI chat history and no search button, making it even easier to access AI tools on the search page.",
           "date": "Nov 20",
           "source": "Ars Technica",
           "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
         },
         {
-          "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
-          "summary": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers. Meta is “re-evaluating” 2030 sustainability goals.",
+          "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+          "summary": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced when test using prompts with unique, trackable secrets proves that data doesn't stay private.",
           "date": "Nov 20",
           "source": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+        },
+        {
+          "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
+          "summary": "Trump FCC declares California isn't allowed to enforce phone service rules, preempting state rules that require AT&T to keep offering home phone service.",
+          "date": "Nov 20",
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/"
         }
       ]
     },
@@ -88,39 +88,39 @@
       "title": "World News",
       "items": [
         {
+          "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+          "summary": "Democrats win largest House majority since 1992 after flipping North Carolina seat. They have now secured at least 258 seats compared to Republicans' 173. (BBC News)",
+          "date": "Nov 23",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss"
+        },
+        {
           "title": "COP31 fails to reach major climate deal as talks expose deep divisions",
-          "summary": "COP31 fails to reach major climate deal as talks expose deep divisions. Hopes for an agreement on tackling climate change collapsed after a row about mentioning fossil fuels.",
+          "summary": "COP31 fails to reach major climate deal as talks expose deep divisions. Hopes collapsed after disagreements about mentioning fossil fuels. (BBC News)",
           "date": "Nov 23",
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss"
         },
         {
           "title": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-          "summary": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes. The BBC's Sarah Rainsford reports from the scene of a collapsed residential building in Ukraine's Kyiv region.",
+          "summary": "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes. BBC's Sarah Rainsford reports from a collapsed residential building in Kyiv region. (BBC News)",
           "date": "Nov 22",
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o?at_medium=RSS&at_campaign=rss"
         },
         {
           "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-          "summary": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say. Libya's eastern government says the ship had stopped for fuel and supplies on its way back to Russia.",
+          "summary": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say. The ship had stopped for fuel and supplies on its way back to Russia. (BBC News)",
           "date": "Nov 22",
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Rights groups urge sanctions after ICJ finds Myanmar guilty of genocide against Rohingya",
-          "summary": "Rights groups urge sanctions after ICJ finds Myanmar guilty of genocide against Rohingya. The International Court of Justice orders Myanmar's government to allow those who fled the violence to return…",
-          "date": "Nov 20",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/rights-groups-urge-sanctions-after-icj-finds-myanmar-guilty-of-genocide-against-rohingya"
-        },
-        {
-          "title": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace",
-          "summary": "NATO calls Russian missiles landing in Poland a 'grave violation' of airspace. Two Russian missiles and a suspected drone came down in Poland on Friday in what its prime minister said was likely a…",
-          "date": "Nov 20",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace"
+          "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+          "summary": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out. Fausto Isidro 'Chapo Isidro' Meza Flores, accused of drug trafficking and torture, is detained. (BBC News)",
+          "date": "Nov 22",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
