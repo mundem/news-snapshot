@@ -1,44 +1,44 @@
 {
-  "updated": "Nov 25, 2026 at 6:51 AM SGT",
+  "updated": "Nov 26, 2026 at 6:47 AM SGT",
   "sections": [
     {
       "id": "finance",
       "title": "Finance & Markets",
       "items": [
         {
+          "title": "The Fed says inflation hasn’t gotten any better ahead of its key December vote to raise rates",
+          "summary": "The Fed says inflation hasn’t gotten any better ahead of its key December vote to raise rates. Stubborn inflation remains a concern for an expanding economy. (MarketWatch)",
+          "date": "Nov 25",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-fed-says-inflation-hasnt-gotten-any-better-ahead-of-its-key-december-vote-to-raise-rates-65024d33?mod=mw_rss_topstories"
+        },
+        {
           "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-          "summary": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation. The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target…",
+          "summary": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation. He expressed confidence inflation will approach the 2% target in 2027. (CNBC)",
           "date": "Nov 24",
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
         },
         {
-          "title": "HPE just posted its strongest growth ever — but its stock is sinking",
-          "summary": "HPE just posted its strongest growth ever — but its stock is sinking. HPE boosted its financial forecast on Monday in the face of strong AI demand.",
-          "date": "Nov 24",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories"
-        },
-        {
-          "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
-          "summary": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now. Wall Street strategists say Jensen Huang’s return to Nvidia could steady the AI trade, though…",
-          "date": "Nov 23",
+          "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+          "summary": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show. Minutes from the October meeting where rates were held steady were released. (CNBC)",
+          "date": "Nov 18",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html"
+          "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
         },
         {
-          "title": "Micron’s stock falls as an analyst warns about a future supply glut",
-          "summary": "Micron’s stock falls as an analyst warns about a future supply glut. A BNP Paribas analyst says the risk of an “oversupply scenario is mounting” for memory chips, and that could threaten Micron’s…",
-          "date": "Nov 24",
+          "title": "New-home sales just hit a 2026 high as builders dangle low mortgages and Black Friday deals",
+          "summary": "New-home sales just hit a 2026 high as builders dangle low mortgages and Black Friday deals. Sales surged to the highest level this year in October. (MarketWatch)",
+          "date": "Nov 25",
           "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/microns-stock-falls-as-an-analyst-warns-about-a-future-supply-glut-f7fbeefb?mod=mw_rss_topstories"
+          "url": "https://www.marketwatch.com/story/new-home-sales-just-hit-a-2026-high-as-builders-dangle-low-mortgages-and-black-friday-deals-291a3b62?mod=mw_rss_topstories"
         },
         {
-          "title": "Nvidia’s stock drops as these major questions loom over Jensen Huang’s return",
-          "summary": "Nvidia’s stock drops as these major questions loom over Jensen Huang’s return. Huang’s reinstatement as CEO doesn’t fix regulatory issues or the investigation into his relationship with a former…",
-          "date": "Nov 24",
+          "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+          "summary": "Oracle, CoreWeave and other tech stocks bounce back after selloff. Technology stocks recovered from early losses on Wednesday as the selloff eased. (MarketWatch)",
+          "date": "Nov 25",
           "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/nvidias-stock-drops-as-these-major-questions-loom-over-jensen-huangs-return-9096636f?mod=mw_rss_topstories"
+          "url": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories"
         }
       ]
     },
@@ -47,39 +47,39 @@
       "title": "AI & Tech",
       "items": [
         {
-          "title": "What's going on with the Riemann hypothesis?",
-          "summary": "A new AI-assisted proof of the Riemann hypothesis seems to be solid, but we're not sure what it tells us. (Ars Technica)",
-          "date": "Nov 24",
+          "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+          "summary": "The FCC has authorized SpaceX to deploy 1 million satellites. This constellation would increase the number of satellites in orbit by roughly 50-fold. (Ars Technica)",
+          "date": "Nov 25",
           "source": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
+          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
         },
         {
-          "title": "Data centers are getting their own natural gas power plants",
-          "summary": "Data centers are getting their own natural gas power plants to bypass long waits for electric grid connections. (MIT Technology Review)",
-          "date": "Nov 24",
+          "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+          "summary": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space. The authorization covers AI chip-equipped satellites as part of the \"Starmind\" initiative. (The Verge)",
+          "date": "Nov 25",
+          "source": "The Verge",
+          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+        },
+        {
+          "title": "How data centers are driving a US natural-gas boom",
+          "summary": "How data centers are driving a US natural-gas boom. AI demand is accelerating the trend of data centers using dedicated natural gas power plants. (MIT Technology Review)",
+          "date": "Nov 25",
           "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+          "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/"
         },
         {
-          "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
-          "summary": "Nvidia CEO Jensen Huang reportedly tells staff it’s ‘not true’ Trump got him rehired and distances himself from the narrative. (The Verge)",
-          "date": "Nov 24",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology"
-        },
-        {
-          "title": "The clock is running out for America’s most contentious spying law",
-          "summary": "The clock is running out for America’s most contentious spying law as Congress scrambles to reauthorize warrantless wiretapping authority. (The Verge)",
-          "date": "Nov 24",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/policy/1041568/fisa-ndaa-blue-wave"
-        },
-        {
-          "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
-          "summary": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted. (Ars Technica)",
-          "date": "Nov 24",
+          "title": "Google search alternative Kagi launches Gmail rival",
+          "summary": "Google search alternative Kagi launches Gmail rival. The service combines privacy promises with AI features. (Ars Technica)",
+          "date": "Nov 25",
           "source": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/"
+          "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/"
+        },
+        {
+          "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
+          "summary": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets. Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says. (Ars Technica)",
+          "date": "Nov 25",
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/"
         }
       ]
     },
@@ -88,39 +88,39 @@
       "title": "World News",
       "items": [
         {
-          "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
-          "summary": "DR Congo says military aircraft missing as rebels claim to shoot down plane. A South African fighter pilot and a Ugandan officer are reportedly among those aboard the downed plane.",
-          "date": "Nov 24",
+          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+          "summary": "Thirty-one people were killed and 21 injured after a fuel tanker crashed and overturned on a busy ring road in Cairo, causing a massive fire. (BBC News)",
+          "date": "Nov 25",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-          "summary": "Israeli air strike kills Hamas internal security chief in Gaza. Naeem Abu Nahel, who had been in the post for two months, is among seven Palestinians reportedly killed in Israeli strikes on Tuesday.",
-          "date": "Nov 24",
+          "title": "US announces new tariffs on host of countries including China",
+          "summary": "The US has announced new tariffs on a host of countries including China and the EU, hitting many of America's biggest trading partners. (BBC News)",
+          "date": "Nov 25",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Land mine casualties soar in Syria, two years after war",
-          "summary": "Land mine casualties soar in Syria, two years after war. Nearly 1,000 children are among those killed or injured by explosives left over from the conflict, figures show.",
-          "date": "Nov 24",
+          "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+          "summary": "Ukraine says five Russian military jets were hit in a strike on the Savasleyka airfield, which hosts aircraft used to launch hypersonic missiles and glide bombs. (BBC News)",
+          "date": "Nov 25",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Russian governor detained in rare criminal case against regional leader",
-          "summary": "Russian governor detained in rare criminal case against regional leader. Andrei Chibis, head of Russia's northern Murmansk region, is the first governor to be detained for five years.",
-          "date": "Nov 24",
+          "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
+          "summary": "An Israeli strike in Gaza City killed senior Hamas security official Mohammed Abu al-Ouf along with his wife and two teenage daughters. (BBC News)",
+          "date": "Nov 25",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
-          "summary": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya. Ukrainian forces deployed seven drones in the operation that struck the Russian navy corvette in the…",
-          "date": "Nov 23",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/zelenskyy-hails-ukraines-attack-on-a-russian-warship-docked-at-a-naval-base-in-libya"
+          "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+          "summary": "Russia's own figures show it has lost nearly 500,000 people in the Ukraine war, with leaked data revealing major changes in mortality patterns. (BBC News)",
+          "date": "Nov 25",
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
