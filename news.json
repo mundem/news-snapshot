@@ -1,44 +1,44 @@
 {
-  "updated": "Nov 26, 2026 at 6:47 AM SGT",
+  "updated": "Nov 27, 2026 at 6:49 AM SGT",
   "sections": [
     {
       "id": "finance",
       "title": "Finance & Markets",
       "items": [
         {
-          "title": "The Fed says inflation hasn’t gotten any better ahead of its key December vote to raise rates",
-          "summary": "The Fed says inflation hasn’t gotten any better ahead of its key December vote to raise rates. Stubborn inflation remains a concern for an expanding economy. (MarketWatch)",
-          "date": "Nov 25",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/the-fed-says-inflation-hasnt-gotten-any-better-ahead-of-its-key-december-vote-to-raise-rates-65024d33?mod=mw_rss_topstories"
+          "title": "Semiconductor chips are the new oil. Here's why",
+          "summary": "Semiconductor chips are the new oil. Here's why | Semiconductor exports overtook oil and gas for the first time in 2026, as the AI boom fueled chip demand. (Nov 26)",
+          "date": "Nov 26",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/semiconductor-chips-are-the-new-oil-heres-why.html"
         },
         {
           "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-          "summary": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation. He expressed confidence inflation will approach the 2% target in 2027. (CNBC)",
+          "summary": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation | The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target…",
           "date": "Nov 24",
           "source": "CNBC",
           "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
         },
         {
-          "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-          "summary": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show. Minutes from the October meeting where rates were held steady were released. (CNBC)",
-          "date": "Nov 18",
+          "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
+          "summary": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now | Wall Street strategists say Jensen Huang’s return to Nvidia could steady the AI trade, though…",
+          "date": "Nov 23",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html"
         },
         {
-          "title": "New-home sales just hit a 2026 high as builders dangle low mortgages and Black Friday deals",
-          "summary": "New-home sales just hit a 2026 high as builders dangle low mortgages and Black Friday deals. Sales surged to the highest level this year in October. (MarketWatch)",
+          "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+          "summary": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips | Jensen Huang's return as Nvidia CEO demonstrates that the U.S.-China artificial intelligence race is not just…",
           "date": "Nov 25",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/new-home-sales-just-hit-a-2026-high-as-builders-dangle-low-mortgages-and-black-friday-deals-291a3b62?mod=mw_rss_topstories"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html"
         },
         {
-          "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
-          "summary": "Oracle, CoreWeave and other tech stocks bounce back after selloff. Technology stocks recovered from early losses on Wednesday as the selloff eased. (MarketWatch)",
-          "date": "Nov 25",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories"
+          "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+          "summary": "Beware higher correlation but nab high U.S. credit yields, fund managers say | The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund…",
+          "date": "Nov 26",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html"
         }
       ]
     },
@@ -48,38 +48,38 @@
       "items": [
         {
           "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
-          "summary": "The FCC has authorized SpaceX to deploy 1 million satellites. This constellation would increase the number of satellites in orbit by roughly 50-fold. (Ars Technica)",
+          "summary": "The FCC has authorized SpaceX to deploy 1 million satellites. This constellation would increase the number of satellites in orbit by roughly 50-fold. (Nov 25)",
           "date": "Nov 25",
           "source": "Ars Technica",
           "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
         },
         {
-          "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
-          "summary": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space. The authorization covers AI chip-equipped satellites as part of the \"Starmind\" initiative. (The Verge)",
-          "date": "Nov 25",
-          "source": "The Verge",
-          "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
-        },
-        {
           "title": "How data centers are driving a US natural-gas boom",
-          "summary": "How data centers are driving a US natural-gas boom. AI demand is accelerating the trend of data centers using dedicated natural gas power plants. (MIT Technology Review)",
+          "summary": "How data centers are driving a US natural-gas boom. In just 18 months, predictions about AI keeping the US dependent on natural gas have been repeatedly proved right. (Nov 25)",
           "date": "Nov 25",
           "source": "MIT Technology Review",
           "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/"
         },
         {
+          "title": "The next generation of bionic hands is here—and they can feel",
+          "summary": "The next generation of bionic hands is here—and they can feel. The new prosthetic is wired to nerves in the forearm, allowing the user to feel sensations and perform more natural movements. (Nov 26)",
+          "date": "Nov 26",
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/"
+        },
+        {
           "title": "Google search alternative Kagi launches Gmail rival",
-          "summary": "Google search alternative Kagi launches Gmail rival. The service combines privacy promises with AI features. (Ars Technica)",
+          "summary": "Google search alternative Kagi launches Gmail rival. The service combines privacy promises with AI features. (Nov 25)",
           "date": "Nov 25",
           "source": "Ars Technica",
           "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/"
         },
         {
-          "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
-          "summary": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets. Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says. (Ars Technica)",
+          "title": "Ladybird browser's first downloadable alpha is surprisingly capable",
+          "summary": "Ladybird browser's first downloadable alpha is surprisingly capable. The independent browser engine has arrived on Linux and macOS. (Nov 25)",
           "date": "Nov 25",
           "source": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/"
+          "url": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/"
         }
       ]
     },
@@ -88,39 +88,39 @@
       "title": "World News",
       "items": [
         {
-          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-          "summary": "Thirty-one people were killed and 21 injured after a fuel tanker crashed and overturned on a busy ring road in Cairo, causing a massive fire. (BBC News)",
-          "date": "Nov 25",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss"
+          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+          "summary": "North Korea's Kim Jong Un visited nuclear facilities and vowed to build more nuclear weapons, days after ignoring U.S. President Donald Trump's offer to meet. (Nov 26)",
+          "date": "Nov 26",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture"
         },
         {
-          "title": "US announces new tariffs on host of countries including China",
-          "summary": "The US has announced new tariffs on a host of countries including China and the EU, hitting many of America's biggest trading partners. (BBC News)",
-          "date": "Nov 25",
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+          "title": "Zelenskyy warns of imminent major Russian attack on Ukraine's power grid",
+          "summary": "Zelenskyy warns that Russia is preparing a major attack on Ukraine's power grid, energy infrastructure, logistics and critical services. (Nov 26)",
+          "date": "Nov 26",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/zelenskyy-warns-of-imminent-major-russian-attack-on-ukraines-power-grid"
         },
         {
-          "title": "Five Russian military jets hit in airfield strike, says Ukraine",
-          "summary": "Ukraine says five Russian military jets were hit in a strike on the Savasleyka airfield, which hosts aircraft used to launch hypersonic missiles and glide bombs. (BBC News)",
-          "date": "Nov 25",
+          "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+          "summary": "A diesel tanker carrying up to 7,000 tonnes has capsized near Ibiza, killing one; possible environmental damage is still being assessed. (Nov 26)",
+          "date": "Nov 26",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
-          "summary": "An Israeli strike in Gaza City killed senior Hamas security official Mohammed Abu al-Ouf along with his wife and two teenage daughters. (BBC News)",
-          "date": "Nov 25",
+          "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+          "summary": "Nine people were injured, three critically, after an explosion at an oil refinery in Bangkok; black smoke was visible across the skyline. (Nov 26)",
+          "date": "Nov 26",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
-          "summary": "Russia's own figures show it has lost nearly 500,000 people in the Ukraine war, with leaked data revealing major changes in mortality patterns. (BBC News)",
-          "date": "Nov 25",
+          "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+          "summary": "A Hamas political official and his wife were among eight Palestinians killed in Israeli strikes on Gaza, the latest in near daily attacks. (Nov 26)",
+          "date": "Nov 26",
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
